@@ -22,6 +22,14 @@ Inicializa repositório
 
 ## Ciclo de vida e estados dos arquivos
 
+`` git add ``
+
+Move os arquivos do `UNTRACKED` ou `MODIFIED` para o `STAGED`
+
+`` git commit -m "<Mensagem do commit>" ``
+
+Commitar arquivos
+
 ![Imagen 01](./img01.png)
 
 ## Visualizar
@@ -29,3 +37,7 @@ Inicializa repositório
 `` git status ``
 
 Visualizar estado dos arquivos
+
+`` git log ``
+
+Mostra os dados dos commits
