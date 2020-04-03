@@ -63,3 +63,5 @@ Remove arquivo do `STAGED` para o `MODIFIED`
 `` git checkout "<nome do arquivo>" ``
 
 Descarta versão no `MODIFIED` para a última no `STAGED` ou no `UNMODIFIED`  
+
+## Desfazer commit
