@@ -41,3 +41,17 @@ Visualizar estado dos arquivos
 `` git log ``
 
 Mostra os dados dos commits
+
+`` git log --graph ``
+
+Mostra o historico dos commits em forma de arvore
+
+`` git diff ``
+
+Mostra as mudanças nos arquivos
+
+## Desfazer as coisa
+
+`` git restore --staged "<nome do arquivo>" ``
+
+Remove arquivo do `STAGED` para o `MODIFIED`
