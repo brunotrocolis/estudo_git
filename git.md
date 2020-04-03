@@ -54,4 +54,12 @@ Mostra as mudanças nos arquivos
 
 `` git restore --staged "<nome do arquivo>" ``
 
+ou
+
+`` git reset HEAD "<nome do arquivo>" ``
+
 Remove arquivo do `STAGED` para o `MODIFIED`
+
+`` git checkout "<nome do arquivo>" ``
+
+Descarta versão no `MODIFIED` para a última no `STAGED` ou no `UNMODIFIED`  
