@@ -65,3 +65,39 @@ Remove arquivo do `STAGED` para o `MODIFIED`
 Descarta versão no `MODIFIED` para a última no `STAGED` ou no `UNMODIFIED`  
 
 ## Desfazer commit
+
+`` git reset --soft <hash do commite>``
+
+Retorna para o commit mantendo alterações no `STAGED`
+
+`` git reset --mixed ``
+
+Retorna para o commit mantendo alterações no `MODIFIED`
+
+`` git reset --hard ``
+
+Retorna para o commit descartando as modificações
+
+## Repositório remoto
+
+`` git remote add origin <url do repositório remoto> ``
+
+Adiciona um repositório remoto
+
+obs: O nome `origin` é convencionado para o repositório remoto principal
+
+`` git remote ``
+
+Lista os repositórios remotos
+
+`` git remote -v ``
+
+Para exibir mais detalhes
+
+`` git push <repositório remoto> <branche>``
+
+Envia commites para o repositório remoto
+
+`` git clone <url do repositório remoto> ``
+
+Baixa arquivos do repositório remoto
