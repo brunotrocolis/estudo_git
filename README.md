@@ -106,7 +106,7 @@ Faz rebase do branch selecionado para o branch atual
 ```
 master:    (C1)___(C2)______(C4)___(C3')___...
                     \
-branch2:             \_(C3)_X
+branch2:             \_(C3)
 ```
 ## Repositório remoto
 ```
@@ -130,4 +130,4 @@ Envia commites para o repositório remoto
 git clone <url do repositório remoto>
 ```
 Baixa arquivos do repositório remoto
-<alteração aleatória>
+<outra alteração>
