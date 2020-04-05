@@ -130,3 +130,4 @@ Envia commites para o repositório remoto
 git clone <url do repositório remoto>
 ```
 Baixa arquivos do repositório remoto
+<teste de conflito 2>
